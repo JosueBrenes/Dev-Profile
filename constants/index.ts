@@ -77,8 +77,14 @@ export const Frontend_skill = [
   {
     skill_name: "Java Script",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Typescript",
+    Image: "/typescript.svg",
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "JQuery",
