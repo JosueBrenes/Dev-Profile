@@ -76,7 +76,6 @@ const Experience = () => {
                 <p className="leading-relaxed">
                 - Specialist in Website Maintenance and Optimization, Ensuring User Experience across Multiple Devices and Browsers. <br />
                 - I am responsible for identifying, investigating, and fixing bugs in the code and in the operation of the company's applications and systems. <br />
-                - Executor of User Experience (UX/UI) Design, Transforming Concepts into Functional and Consistent Implementations. <br />
                 </p>
                 <div className="text-purple-400 inline-flex items-center mt-10">
                   Tools
@@ -126,6 +125,61 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-white">
+                  Only Dust
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">
+                  September 2024 - Present
+                </span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-white title-font mb-2">
+                  Full Stack Web Developer
+                </h2>
+                <p className="leading-relaxed">
+                - I lead the resolution of assigned issues related to the development of applications using React and Next.js.<br />
+                - I implement Web3 functionalities, integrating  decentralized features that enhance the functionality of applications.</p>
+              <div className="text-purple-400 inline-flex items-center mt-10">
+                  Tools
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                  <div className="mx-10 flex gap-5">
+                    <SkillDataProvider
+                      src="/react.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/next-js.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/tailwind.png"
+                      width={35}
+                      height={35}
+                      index={0}
+                    />
+              
+                  </div>
+                </div>
+              </div>  
             </div>
           </div>
         </div>
