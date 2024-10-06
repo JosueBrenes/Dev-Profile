@@ -26,7 +26,130 @@ export const Socials = [
   },
 ];
 
-export const Skill_data = [
+export const Frameworks = [
+  {
+    skill_name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Typescript",
+    Image: "/typescript.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "NET",
+    Image: "/net.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Astro",
+    Image: "/astro.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Laravel",
+    Image: "/laravel.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Springboot",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/spring/spring-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Bootstrap",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/bootstrap/bootstrap-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "sass",
+    Image: "/sass.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "JQuery",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/jquery/jquery-original.svg",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const ProgrammingLanguages = [
+  {
+    skill_name: "Html 5",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: "/js.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/java/java-plain.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C#",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/csharp/csharp-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Drupal",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/drupal/drupal-original.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "PHP",
+    Image:
+      "/php.svg",
+    width: 100,
+    height: 100,
+  },
+  {
+    skill_name: "Node js",
+    Image: "/node-js.svg",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const Databases = [
   {
     skill_name: "Mongo db",
     Image: "/mongodb.png",
@@ -59,112 +182,7 @@ export const Skill_data = [
   },
 ];
 
-export const Frontend_skill = [
-  {
-    skill_name: "Html 5",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Css",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Java Script",
-    Image: "/js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Typescript",
-    Image: "/typescript.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JQuery",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/jquery/jquery-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Bootstrap",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/bootstrap/bootstrap-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Astro",
-    Image: "/astro.png",
-    width: 80,
-    height: 80,
-  }
-];
-
-export const Backend_skill = [
-  {
-    skill_name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "PHP",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/php/php-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Java",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/java/java-plain.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Springboot",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/spring/spring-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "C#",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/csharp/csharp-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Drupal",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/drupal/drupal-original.svg",
-    width: 80,
-    height: 80,
-  },
-];
-
-export const Other_skill = [
+export const OtherSkills = [
   {
     skill_name: "Git",
     Image:
@@ -172,4 +190,22 @@ export const Other_skill = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "GitHub",
+    Image: "/gitwhite.png", 
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Visual Studio Code",
+    Image: "/vscode.png", 
+    width: 80,
+    height: 80,
+  },
+  /* {
+    skill_name: "3T Studio",
+    Image: "/3t_studio.png",
+    width: 80,
+    height: 80,
+  }, */
 ];

@@ -2,10 +2,10 @@
 
 import React from "react";
 import {
-  Backend_skill,
-  Frontend_skill,
-  Other_skill,
-  Skill_data,
+  Frameworks,
+  ProgrammingLanguages,
+  Databases,
+  OtherSkills,
 } from "@/constants";
 import SkillDataProvider from "./sub/SkillDataProvider";
 import SkillText from "./sub/SkillText";
@@ -21,7 +21,7 @@ const Skills = () => {
         <SkillText />
 
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Frontend_skill.map((image, index) => (
+          {Frameworks.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
 
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Backend_skill.map((image, index) => (
+          {ProgrammingLanguages.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -45,7 +45,7 @@ const Skills = () => {
         </div>
 
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Skill_data.map((image, index) => (
+          {Databases.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -57,7 +57,7 @@ const Skills = () => {
         </div>
 
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Other_skill.map((image, index) => (
+          {OtherSkills.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
