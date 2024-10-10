@@ -66,7 +66,7 @@ const Experience = () => {
                   Rolosa HyJ S.A
                 </span>
                 <span className="mt-1 text-gray-500 text-sm">
-                  Abril 2024 - Present
+                  May 2024 - October 2024
                 </span>
               </div>
               <div className="md:flex-grow">
